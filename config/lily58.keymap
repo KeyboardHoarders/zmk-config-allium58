@@ -29,7 +29,7 @@
             bindings = <&mo>, <&tog>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <140>;
+            tapping-term-ms = <150>;
         };
 
         hr_mt: hr_mt {
@@ -40,7 +40,7 @@
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
 
-            flavor = "balanced";
+            flavor = "tap-preferred";
         };
     };
 
